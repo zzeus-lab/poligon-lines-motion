@@ -43,8 +43,9 @@ let directionChangeCounter = 0;
 
 function drawPolygon() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
-  ctx.strokeStyle = "purple";
-  ctx.lineWidth = 5;
+  ctx.strokeStyle = "darkslateblue";
+//   ctx.strokeStyle = "white";
+  ctx.lineWidth = 16;
   ctx.beginPath();
   for (let i = 0; i < 8; i++) {
     const point = points[i];
